@@ -19,7 +19,8 @@ const ColorVotingApp = () => {
     { name: 'Orange', hex: '#f97316', bgClass: 'bg-orange-500' },
     { name: 'Pink', hex: '#ec4899', bgClass: 'bg-pink-500' },
     { name: 'Yellow', hex: '#eab308', bgClass: 'bg-yellow-500' },
-    { name: 'Teal', hex: '#14b8a6', bgClass: 'bg-teal-500' }
+    { name: 'Teal', hex: '#14b8a6', bgClass: 'bg-teal-500' },
+    { name: 'Black', hex: '#1f2937', bgClass: 'bg-gray-800' }
   ]
 
   const loadVotes = async () => {
