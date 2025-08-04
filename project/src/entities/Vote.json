@@ -1,0 +1,21 @@
+{
+  "name": "Vote",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the vote"
+    },
+    "color": {
+      "type": "string",
+      "description": "The color that was voted for"
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "When the vote was cast"
+    }
+  },
+  "required": [
+    "color"
+  ]
+}
